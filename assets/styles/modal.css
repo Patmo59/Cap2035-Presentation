@@ -1,0 +1,85 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal{
+    /* font-family: */
+    display: none;
+    border: 2px solid black;
+    border-radius: 3px;
+    min-width: 350px;
+    max-width: 1200px;
+    height: 80vh;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-60%,-40%);
+    background: #f1eaaad8;
+    padding: 14px 28px;
+    letter-spacing: 0.5px;
+    color: #332214;
+    overflow-y: auto ;
+}
+.btn-modal{
+    display: block;
+    padding: 20px 10px;
+    margin: 0px  10px;
+    font-size:15px;
+    border-radius: 15px;
+    box-shadow: 15px 10px 10px rgba(102, 99, 92, 0.603);
+    background-color: #ff7200;
+}
+.btn-modal:hover{
+    background-color: #fff;
+    color: white;
+    cursor: pointer;
+}
+.overlay{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(49,49,19,0.8);
+    z-index: 2;
+}
+
+.modal-content{
+    font-family: monospace;
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 45px;
+}
+.close-modal{ /*bouton fermer*/
+    bottom: 15px;
+    padding: 10px 25px;
+    font-size:15px;
+    border-radius: 15px;
+    box-shadow: 15px 10px 10px rgba(102, 99, 92, 0.603);
+    background-color: #ff7200;
+    justify-content:flex-start;
+    position: sticky;
+}
+.modal-content  p 
+{margin-top: 35px;
+    margin-bottom: 35px;
+}
+.btn-fleche {
+    height: 50px;
+    width: 50px;
+    background: crimson;
+    border-radius: 50%;
+    box-shadow: 15px 10px 10px rgba(102, 99, 92, 0.603);
+    position: fixed;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: 450px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.icone {
+    width: 50px;
+}

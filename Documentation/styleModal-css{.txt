@@ -1,0 +1,62 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal{
+    /* font-family: */
+    display: none;
+    border: 2px solid black;
+    border-radius: 3px;
+    min-width: 350px;
+    max-width: 750px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%,-50%);
+    background: #f1f1f1;
+    padding: 14px 28px;
+    letter-spacing: 0.5px;
+}
+.btn-modal{
+    display: block;
+    padding: 20px 10px;
+    margin: 1px auto 0;
+    font-size:30px;
+    border-radius: 15px;
+    box-shadow: 15px 10px 10px rgba(102, 99, 92, 0.603);
+}
+.btn-modal:hover{
+    background-color: grey;
+    color: white;
+    cursor: grab;
+}
+.overlay{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(49,49,19,0.8);
+}
+h1{
+    /* text-align: center; */
+    padding: 10px 15px;
+}
+.modal-content{
+    font-style: italic;
+    font-size: 1rem;
+    /* margin-bottom: 15px; */
+}
+.close-modal{ /*bouton fermer*/
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 5px 7px;
+}
+.modal-content>.btnaccueil{
+ display: flex;
+ justify-content: space-evenly;
+}

@@ -1,0 +1,30 @@
+<!-- =================Debut de Modal================-->
+    <button  class="btn-modal">Présentation de l'application</button>
+        <div class="overlay"> 
+            <div class="modal">
+                <div class="modal-content">
+                        <ul>
+                            <li class="retrait"  > <strong> - MySql d'Apache</strong> sur la plateforme Xampp  (serveur local  localhost)pour le stockage 
+                            des datas, </li>
+                            <li class="retrait"> <span id="mev"><strong>- PHP </strong></span> "PHP Hypertext Préprocessor" "Server"</li>
+                            <li class="retrait"> <span id="mev"><strong>- HTML</strong> </span> (HyperText Markup)  pour l'affichage sur le navigateur (Chrome)</li>
+                            <li class="retrait"> <strong>- CSS 3</strong> (Cascading Style Sheets ) pour la mise en forme sur la page de navigation.</li>
+                            <li class="retrait"> <strong>- Javascript</strong> un langage de programmation qui permet de créer du contenu mis à jour de façon
+                                 dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut pense </li>
+                        </ul>
+                        <div class="btnaccueil">
+                            <button><a href="#">PowerPoint</a>
+                            <button><a href="#">MCD</a>
+                            <button><a href="#">Page de code</a>
+                            <!-- <button><a href="/pages/bootstrap.html">Bootstrap</a></button> -->
+                            <button><a href="https://xd.adobe.com/view/10d5dcd6-c19a-456c-b87c-ed1458062209-4586/?fullscreen" target="
+                            _blank">Abode XD</a></button>
+                            <!-- <button><a href="/pages/wordpress.html">Wordpress</a></button> -->
+                            <button><a href="http://localhost/Projet_Ema/index.html">Projet du Stage</a></button>
+                            <!-- <button><a href="/pages/autre4.html">Autre 4</a></button> -->
+                        </div>
+                </div>
+                <button  class="close-modal">Fermer</button>
+            </div>
+        </div>
+        <!-- =================fin de Modal================-->
